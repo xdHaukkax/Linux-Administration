@@ -114,18 +114,18 @@ def home():
                     named visitors.db.
                 </p>
                 <p>
-                    The counter is increased and saved every time
-                    the page is loaded.
+                    The counter is increased and saved every time                    the page is loaded.
                 </p>
             </section>
 
-            <section class="card">
-                <h2>Restart Test</h2>
+                   <h2>Restart Test</h2>
                 <p>
                     Server restart persistence test:
                     <strong>Pending verification.</strong>
                 </p>
             </section>
+
+
 
             <section class="card">
                 <h2>Source Code</h2>
