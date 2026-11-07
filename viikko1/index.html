@@ -79,7 +79,43 @@
                 No login is required to view the page.
             </p>
         </section>
+<section class="card">
+    <h2>Commands Used to Build This Website</h2>
 
+    <p>
+        The following Linux commands were used to install,
+        configure and manage the Nginx web server.
+    </p>
+
+    <h3>1. Update the system</h3>
+    <pre><code>sudo apt update
+sudo apt upgrade -y</code></pre>
+
+    <h3>2. Install Nginx</h3>
+    <pre><code>sudo apt install nginx -y</code></pre>
+
+    <h3>3. Start and enable Nginx</h3>
+    <pre><code>sudo systemctl start nginx
+sudo systemctl enable nginx</code></pre>
+
+    <h3>4. Check Nginx status</h3>
+    <pre><code>sudo systemctl status nginx</code></pre>
+
+    <h3>5. Allow HTTP traffic</h3>
+    <pre><code>sudo ufw allow 80/tcp</code></pre>
+
+    <h3>6. Edit the website</h3>
+    <pre><code>sudo nano /var/www/html/viikko1/index.html</code></pre>
+
+    <h3>7. Test the web server</h3>
+    <pre><code>curl http://localhost</code></pre>
+
+    <p>
+        These commands helped me install Nginx, configure the
+        web server, create the HTML page and make the website
+        accessible through the internet.
+    </p>
+</section>
         <section class="card">
             <h2>Source Code</h2>
             <p>
