@@ -5,3 +5,16 @@ __pycache__/
 venv/
 *.pem
 *.key
+
+# Database credentials
+viikko4-db.php
+*.env
+
+# Backup archives
+*.tar.gz
+*.sql
+
+# Private SSH keys
+id_rsa
+id_ed25519
+backup_to_b
